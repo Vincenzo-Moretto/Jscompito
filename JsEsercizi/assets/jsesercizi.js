@@ -47,3 +47,30 @@ if (name3 === name4) {
   document.getElementById("name2").innerHTML = name3 + " è diverso " + name4;
   console.log("Non uguali!");
 }
+
+function bottoneStringa() {
+  let element = document.getElementById("stringa");
+  /* element.classList.add("stringa"); /*aggiunge classe stringa */
+  /* element.classList.remove("stringa"); /*rimuove classe stringa */
+  element.classList.toggle("stringa"); /*rimuove/agginge classe stringa se la tiene */
+}
+
+function bottoneBoolean() {
+  let element = document.getElementById("boolean");
+  element.classList.toggle("boolean");
+}
+
+function bottoneNumber() {
+  let element = document.getElementById("number");
+  element.classList.toggle("number");
+}
+
+function bottoneData() {
+  let element = document.getElementById("data");
+  element.classList.toggle("data");
+}
+
+function bottoneNull() {
+  let element = document.getElementById("null");
+  element.classList.toggle("null");
+}

@@ -15,27 +15,33 @@
       Elenca e descrivi i principali datatype in JavaScript.
     </button>
     <ul>
-      <button>String</button>
-      <p>"Questa è una stringa"</p>
+      <button onclick="bottoneStringa()">String</button>
+      <p id="stringa" class="no">"Questa è una stringa"</p>
       <p>Questo tipo di dato è una sequenza di caratteri. E' anche detto alfanumerico. Ad esempio "Enzo".</p>
-      <button>Number</button>
+      <button onclick="bottoneNumber()">Number</button>
+      <p id="number" class="no">"1 - 2 - 3 - 4 - ecc."</p>
       <p>
         Questo tipo di dato è numerico. Può trattarsi di un numero intero (integer) o decimale (floating point). Ad
         esempio, 3.14. In ogni caso javascript tratta tutti i numeri come numeri decimali a virgola mobile anche quando
         sono interi.
       </p>
-      <button>Boolean</button>
-      <p>True o False</p>
+      <button onclick="bottoneBoolean()">Boolean</button>
+      <p id="boolean" class="no">True o False</p>
       <p>E' il tipo di dato booleano. Può assumere solo i valori true (vero) o false (falso).</p>
-      <button>Date</button>
-      <p>23/06/1993</p>
+
+      <button onclick="bottoneData()">Data</button>
+      <p id="data" class="no">23/06/1993</p>
       <p>E' il tipo di dato per memorizzare le date e l'ora.</p>
       <p><b>A questi si aggiungono dei data type primitivi che indicano una particolare condizione e sono:</b></p>
-      <button>Null</button>
-      <p>null</p>
+
+      <button onclick="bottoneNull()">Null</button>
+      <p id="null" class="no">null</p>
       <p>Questo data type lo rilevo nelle variabili che ho dichiarato ma a cui non ho ancora assegnato un valore.</p>
+
+      <!-- continuare -->
+
       <button>Undefined</button>
-      <p>undefined</p>
+      <p class="no">undefined</p>
       <p>
         Questo data type lo rilevo quando qualcosa non è stato ben definito in una variabile a cui ho assegnato un
         valore.

@@ -37,3 +37,32 @@ h3 {
 .no {
   display: none;
 }
+
+.stringa {
+  display: block;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.boolean {
+  display: block;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.number {
+  display: block;
+  background-color: aquamarine;
+  text-align: center;
+}
+.data {
+  display: block;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.null {
+  display: block;
+  background-color: aquamarine;
+  text-align: center;
+}
