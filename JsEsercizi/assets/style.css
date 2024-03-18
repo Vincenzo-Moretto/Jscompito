@@ -1,0 +1,39 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+button {
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  background-color: red;
+}
+
+ul button {
+  background-color: red;
+  border-radius: 25px;
+}
+
+h3 {
+  text-align: center;
+}
+#somma {
+  text-align: center;
+  border-radius: 25px;
+  background-color: red;
+  margin: 0px 800px;
+}
+
+.risultato {
+  /* Creata classe comune */
+  text-align: center;
+  border-radius: 25px;
+  background-color: red;
+  margin: 0px 800px;
+}
+
+.no {
+  display: none;
+}
